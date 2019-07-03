@@ -15,7 +15,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class MultipleRegexMatcher {
-    public String multipleregexmatcher(String inputstring,String search)//initialized two string one is paragraph of words and another is to word to find positions where it is present
+    public String multipleRegexMatcher(String inputstring,String search)//initialized two string one is paragraph of words and another is to word to find positions where it is present
     {
         String outputstring="";
         if(inputstring.length()>0) {

@@ -24,7 +24,7 @@ public class StringTransposeTest {
         //arrange
         StringTranspose stringTranspose=new StringTranspose();
         //Act
-        String result = stringTranspose.stringtranspose("a quick brown fox jumps over the lazy dog");
+        String result = stringTranspose.stringTranspose("a quick brown fox jumps over the lazy dog");
         //Assert
         assertEquals("a kciuq nworb xof spmuj revo eht yzal god", result);
     }
@@ -33,7 +33,7 @@ public class StringTransposeTest {
         //arrange
         StringTranspose stringTranspose=new StringTranspose();
         //Act
-        String result = stringTranspose.stringtranspose(" ");
+        String result = stringTranspose.stringTranspose(" ");
         //Assert
         assertEquals("error", result);
     }
@@ -42,7 +42,7 @@ public class StringTransposeTest {
         //arrange
         StringTranspose stringTranspose=new StringTranspose();
         //Act
-        String result = stringTranspose.stringtranspose("");
+        String result = stringTranspose.stringTranspose("");
         //Assert
         assertNotEquals("error", result);
     }

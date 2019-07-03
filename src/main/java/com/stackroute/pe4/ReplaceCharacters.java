@@ -9,7 +9,7 @@ package com.stackroute.pe4;
 
 public class ReplaceCharacters {
 
-    public String replacecharacters(String string, char character1, char character2,char character3,char character4)//intialized string and characters
+    public String replaceCharacters(String string, char character1, char character2,char character3,char character4)//intialized string and characters
     {
         if(string.length()!=0)
         {

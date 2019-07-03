@@ -12,7 +12,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class RegularExpressionMatcher {
-    public String regularexpressionmatcher(String inputstring,String search) //initialized to strings one is for input  another is to search
+    public String regularExpressionmatcher(String inputstring,String search) //initialized to strings one is for input  another is to search
     {
         String outputstring="";
        if(inputstring.length()>0)

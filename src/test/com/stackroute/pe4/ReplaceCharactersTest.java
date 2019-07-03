@@ -24,7 +24,7 @@ public class ReplaceCharactersTest {
         //arrange
          ReplaceCharacters replaceCharacters=new ReplaceCharacters();
         //Act
-        String result = replaceCharacters.replacecharacters("daily dry",'d','f','l','t');
+        String result = replaceCharacters.replaceCharacters("daily dry",'d','f','l','t');
         //Assert
         assertEquals("faity fry", result);
     }
@@ -34,7 +34,7 @@ public class ReplaceCharactersTest {
         //arrange
         ReplaceCharacters replaceCharacters=new ReplaceCharacters();
         //Act
-        String result = replaceCharacters.replacecharacters("",'d','f','l','t');
+        String result = replaceCharacters.replaceCharacters("",'d','f','l','t');
         //Assert
         assertEquals("error", result);
     }

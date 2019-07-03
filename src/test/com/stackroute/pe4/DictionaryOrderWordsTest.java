@@ -24,7 +24,7 @@ public class DictionaryOrderWordsTest {
         //arrange
         DictionaryOrderWords dictionaryOrderWords=new DictionaryOrderWords();
         //Act
-        String result = dictionaryOrderWords.dictionarysort("three two one");
+        String result = dictionaryOrderWords.dictionarySort("three two one");
         //Assert
         assertEquals("one three two", result);
     }
@@ -33,16 +33,16 @@ public class DictionaryOrderWordsTest {
         //arrange
         DictionaryOrderWords dictionaryOrderWords=new DictionaryOrderWords();
         //Act
-        String result = dictionaryOrderWords.dictionarysort("");
+        String result = dictionaryOrderWords.dictionarySort("");
         //Assert
-        assertEquals("error", result);
+        assertNotEquals(" ", result);
     }
     @Test
     public void givenStringShouldReturnDictionarysortforNUmbers() {
         //arrange
         DictionaryOrderWords dictionaryOrderWords=new DictionaryOrderWords();
         //Act
-        String result = dictionaryOrderWords.dictionarysort("4 3 2");
+        String result = dictionaryOrderWords.dictionarySort("4 3 2");
         //Assert
         assertEquals("2 3 4", result);
     }

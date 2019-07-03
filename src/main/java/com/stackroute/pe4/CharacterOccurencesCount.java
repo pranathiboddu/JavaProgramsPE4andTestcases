@@ -6,7 +6,7 @@ For Example- Java is java again java again count number of occurrence of a in th
 package com.stackroute.pe4;
 
 public class CharacterOccurencesCount {
-    public int charactercount(String string,char character)//intialized String and charcter (to count occurrences of character in String)
+    public int characterCount(String string,char character)//intialized String and charcter (to count occurrences of character in String)
     {
 
         int originallength=string.length(); //finding length of original string

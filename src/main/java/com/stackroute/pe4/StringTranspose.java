@@ -8,7 +8,7 @@ import java.lang.String;
 
 
 public class StringTranspose {
-    public String stringtranspose(String string)//initialized string to
+    public String stringTranspose(String string)//initialized string to
     {
         if (string.length() != 1) {
             String[] result = string.split(" ");//splitting the string by whitespace

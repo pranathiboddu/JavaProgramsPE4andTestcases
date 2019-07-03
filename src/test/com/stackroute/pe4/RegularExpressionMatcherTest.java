@@ -23,7 +23,7 @@ public class RegularExpressionMatcherTest {
         //arrange
         RegularExpressionMatcher regularExpressionMatcher=new RegularExpressionMatcher();
         //Act
-        String result = regularExpressionMatcher.regularexpressionmatcher("This is Harry","Harry");
+        String result = regularExpressionMatcher.regularExpressionmatcher("This is Harry","Harry");
         //Assert
         assertEquals("Is Harry here ? true", result);
     }
@@ -32,7 +32,7 @@ public class RegularExpressionMatcherTest {
         //arrange
         RegularExpressionMatcher regularExpressionMatcher=new RegularExpressionMatcher();
         //Act
-        String result = regularExpressionMatcher.regularexpressionmatcher("This is Harry","jerry");
+        String result = regularExpressionMatcher.regularExpressionmatcher("This is Harry","jerry");
         //Assert
         assertEquals("Is jerry here ? false", result);
     }
@@ -41,7 +41,7 @@ public class RegularExpressionMatcherTest {
         //arrange
         RegularExpressionMatcher regularExpressionMatcher=new RegularExpressionMatcher();
         //Act
-        String result = regularExpressionMatcher.regularexpressionmatcher("","jerry");
+        String result = regularExpressionMatcher.regularExpressionmatcher("","jerry");
         //Assert
         assertEquals("error", result);
     }

@@ -26,7 +26,7 @@ public class CharacterOccurencesCountTest
         //arrange
         CharacterOccurencesCount characterOccurencesCount=new CharacterOccurencesCount();
         //Act
-        int result=characterOccurencesCount.charactercount("javajavajava",'a');
+        int result=characterOccurencesCount.characterCount("javajavajava",'a');
         //Assert
         assertEquals(6, result);
     }
@@ -36,7 +36,7 @@ public class CharacterOccurencesCountTest
         //arrange
         CharacterOccurencesCount characterOccurencesCount=new CharacterOccurencesCount();
         //Act
-        int result=characterOccurencesCount.charactercount("",'a');
+        int result=characterOccurencesCount.characterCount("",'a');
         //Assert
         assertEquals(0, result);
     }
@@ -45,7 +45,7 @@ public class CharacterOccurencesCountTest
         //arrange
         CharacterOccurencesCount characterOccurencesCount=new CharacterOccurencesCount();
         //Act
-        int result=characterOccurencesCount.charactercount("HELLO",'l');
+        int result=characterOccurencesCount.characterCount("HELLO",'l');
         //Assert
         assertNotEquals(4, result);
     }

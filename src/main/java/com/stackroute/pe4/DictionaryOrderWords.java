@@ -8,7 +8,7 @@ import java.lang.String;
 import java.util.Arrays;
 
 public class DictionaryOrderWords {
-    public String dictionarysort(String string)//intialized string to sort
+    public String dictionarySort(String string)//intialized string to sort
     {
         if(string.length()!=0) {
             String[] result = string.split(" "); //splitting the given string by whitespace and storing into string array
